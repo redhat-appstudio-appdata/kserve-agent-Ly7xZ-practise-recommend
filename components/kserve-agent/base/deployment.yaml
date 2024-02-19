@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: kserve-agent
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhoai-tenant/kserve-agent/kserve-agent@sha256:27b0242d4ccc5a3f6187de25cd1f9b3cb5715a4f2fd24977c8d0dc9b8a74b3ed
+      - image: quay.io/redhat-user-workloads/rhoai-tenant/kserve-agent/kserve-agent@sha256:8bd1145f3221d9e227a4ce34f6ecaeb04b68fc6a947a017f2ea9a23356a156ed
         imagePullPolicy: Always
         name: container-image
         ports:
